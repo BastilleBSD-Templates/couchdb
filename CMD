@@ -1,0 +1,8 @@
+/usr/local/etc/rc.d/couchdb start
+
+pw user add couchdb
+pw user mod couchdb -c 'CouchDB, time to relax' -s /usr/sbin/nologin -d /var/lib/couchdb
+pw group add couchdb
+
+
+

@@ -1,0 +1,5 @@
+couchdb_enable=YES
+couchdb_enablelogs=YES
+couchdb_user=couchdb
+
+
